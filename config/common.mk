@@ -5,6 +5,9 @@
 
 PRODUCT_BRAND ?= Unit55
 
+# Apex
+$(call inherit-product, vendor/unit55/config/apex.mk)
+
 # Extras
 $(call inherit-product, vendor/extras/extras.mk)
 
@@ -41,3 +44,4 @@ PRODUCT_COPY_FILES += \
 
 # Pixel Framework
 $(call inherit-product, vendor/pixel-framework/config.mk)
+
