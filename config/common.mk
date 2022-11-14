@@ -17,6 +17,9 @@ $(call inherit-product, vendor/gms/products/gms.mk)
 # Packages
 $(call inherit-product, vendor/unit55/config/packages.mk)
 
+# Sepolicy
+include device/unit55/sepolicy/common/sepolicy.mk
+
 # Telephony
 $(call inherit-product, vendor/unit55/telephony/telephony.mk)
 
