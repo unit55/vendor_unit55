@@ -28,7 +28,8 @@ $(call inherit-product, vendor/unit55/config/version.mk)
 
 # Dex preopt
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUIGoogle \
+    NexusLaucherRelease
 
 # Overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/unit55/overlay
