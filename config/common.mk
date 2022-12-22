@@ -6,7 +6,7 @@
 PRODUCT_BRAND ?= Unit55
 
 # Apex
-$(call inherit-product, vendor/unit55/config/apex.mk)
+$(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.mk)
 
 # Extras
 $(call inherit-product, vendor/extras/extras.mk)
@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/unit55/permissions/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
 
 # Pixel Framework
-$(call inherit-product, vendor/pixel-framework/config.mk)
+#$(call inherit-product, vendor/pixel-framework/config.mk)
 
 # Enable whole-program R8 Java optimizations for SystemUI and system_server,
 # but also allow explicit overriding for testing and development.
