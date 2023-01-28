@@ -16,6 +16,9 @@
 -->
 <resources>
     <string-array name="configs_base">
+
+        <!-- Enable the new and advanced Privacy Hub -->
+        <item>privacy/safety_center_is_enabled=true</item>
  
         <!-- Machine learning back gesture (requires TensorFlow model) -->
         <!-- <item>systemui/use_back_gesture_ml_model=true</item>
@@ -31,10 +34,6 @@
 
         <!-- Use new privacy indicators for location -->
         <item>privacy/location_indicators_enabled=true</item>
-
-        <!-- Enable permission hub v2 -->
-        <item>privacy/permissions_hub_enabled=true</item>
-        <item>privacy/permissions_hub_2_enabled=true</item>
 
         <!--
             Device Personalization Services (AiAi)
