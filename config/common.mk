@@ -6,7 +6,7 @@
 PRODUCT_BRAND ?= Unit55
 
 # Apex
-$(call inherit-product, vendor/unit55/config/apex.mk)
+$(call inherit-product-if-exists, vendor/partner_modules/build/mainline_modules.mk)
 
 # Extras
 $(call inherit-product, vendor/extras/extras.mk)
