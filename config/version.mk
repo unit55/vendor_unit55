@@ -3,7 +3,7 @@
 #   SPDX-License-Identifier: Apache-2.0
 #
 
-UNIT55_BASE_VERSION := 1.0
+UNIT55_BASE_VERSION := 2.0
 
 UNIT55_BUILD_DATE := $(shell date +%Y%m%d)
 UNIT55_BUILD_TIME := $(shell date +%H%M)
