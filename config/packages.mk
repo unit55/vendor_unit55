@@ -5,3 +5,7 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     SimpleDeviceConfig \
     QuickAccessWallet
+
+# Google Overlays
+PRODUCT_PACKAGES += \
+    ClearCallingSettingsOverlay2022
